@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+<div class="container">
+  <input type="hidden" id="answer">
+  <input type="hidden" id="attempt">
+  <div class="row">
+    <div class="flex-box-heading">
+        <h1 class="display-1">Number-Game</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="flex-box-input">
+      <input type="number" type="submit" id="userInput" placeholder="Enter any 4-digit number">
+    </div>
+      <div class="flex-box-button">
+      <button class="btn btn-primary btn-lg" id="buttonGuess" onclick="checkNumber()">PLAY</button>
+      <button class="btn btn-warning btn-lg" id="buttonReplay" onclick="window.location.reload()">Play Again</button>
+    </div>
+  </div>
+    <div class="row">
+      <div class="flex-box-msg">
+      <h2 class="" id="errorMsg"></h2>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3">
+        <table class="table table-hover table-responsive table-bordered table-striped  " id="results">
+          <tr>
+            <th>Guess</th>
+            <th>Answer</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="flex-box-rules">
+        <a href="rules.html">Take me to the rules</a>
+      </div>
+    </div>
+  </div>
+
+<!-- data-toggle="modal" data-target=".bd-example-modal-sm" -->
+
+ <!-- <div class="modal fade bd-example-modal-sm" id="myModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <h1 id="modalOutput">i am a modal</h1>
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

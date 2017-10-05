@@ -1,0 +1,74 @@
+body{
+height: 100vh;
+background-color: #8e44ad;
+background: url(../images/cover_pic.jpg) center center no-repeat fixed;
+}
+#buttonReplay{
+  display: none;
+}
+
+button{
+  margin-top: 15px;
+}
+h1{
+	color: #ecf0f1;
+	font-family: 'Nosifer', cursive;
+}
+.flex-box-heading{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-box-input{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-box-button{
+	margin-top: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-box-msg{
+	margin-top: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-box-rules{
+	margin-top: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+  font-family: 'Germania One', cursive;
+
+}
+.flex-box-rules > a{
+	color: #d35400;
+	text-decoration: none !important;
+}
+input{
+	line-height: 40px;
+	padding: 12px;
+	border-radius: 8px;
+	background-color: #bdc3c7;
+}
+#userInput{
+	font-size: 20px;
+}
+.text-warning{
+	color: #e74c3c;
+}
+.text-success{
+	color: #1abc9c;
+}
+.text-final-warning{
+	color: #c0392b;
+}
+.invalid-input-msg{
+	color: red;
+}
